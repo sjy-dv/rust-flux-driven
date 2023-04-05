@@ -1,0 +1,22 @@
+[package]
+name = "rust-flux-driven"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web="4"
+actix-rt="2"
+crossbeam-channel="0.5.0"
+influxdb2="0.3"
+influxdb2-structmap="0.2"
+num-traits="0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+tokio={version="1.15.0", features=["full"]}
+futures="0.3"
+uuid={version="1.3.0", features=["v4"]}
+dotenv="0.15.0"
+cfonts="1"
+env_logger="0.10.0"
